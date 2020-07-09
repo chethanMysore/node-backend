@@ -16,7 +16,7 @@ This is a REST service for Resource Manager application at the Illinois Tech Uni
 ## Build Instructions
 Run mongo daemon service to open connection to local data server
 ```cmd
-mongod --dbPath <Path to data storage directory here>
+mongod --dbpath <Path to data storage directory here>
 ```
 Install Dependencies
 ```cmd
