@@ -11,8 +11,13 @@ This is a REST service for Resource Manager application at the Illinois Tech Uni
 ## System Requirements
  - *nodejs* version > 8.x [download here](https://nodejs.org/en/)
  - *npm version* > 6.x (Usually included with nodejs)
+ - *mongoDBCommunityEdition* [download here](https://docs.mongodb.com/manual/administration/install-community/)
  
 ## Build Instructions
+Run mongo daemon service to open connection to local data server
+```cmd
+mongod --dbPath <Path to data storage directory here>
+```
 Install Dependencies
 ```cmd
 npm install
