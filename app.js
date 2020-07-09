@@ -202,8 +202,9 @@ function deleteItem(req, res) {
 
 // all environments
 app.set("port", process.env.PORT || 3050);
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "jade");
+// Use this to add front-end for testing
+// app.set("views", path.join(__dirname, "views"));
+// app.set("view engine", "jade");
 app.use(express.favicon());
 app.use(express.logger("dev"));
 app.use(express.json());
