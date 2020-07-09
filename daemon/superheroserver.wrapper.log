@@ -1,0 +1,72 @@
+2017-04-07 16:52:09 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-07 16:52:09 - Started 16000
+2017-04-07 17:22:18 - Stopping superheroserver.exe
+2017-04-07 17:22:18 - ProcessKill 16000
+2017-04-07 17:22:19 - Found child process: 15716 Name: conhost.exe
+2017-04-07 17:22:19 - Found child process: 4488 Name: node.exe
+2017-04-07 17:22:19 - Stopping process 15716
+2017-04-07 17:22:19 - Send SIGINT 15716
+2017-04-07 17:22:19 - SIGINT to 15716 failed - Killing as fallback
+2017-04-07 17:22:19 - Stopping process 4488
+2017-04-07 17:22:19 - Send SIGINT 4488
+2017-04-07 17:22:19 - SIGINT to 4488 failed - Killing as fallback
+2017-04-07 17:22:19 - Stopping process 16000
+2017-04-07 17:22:19 - Send SIGINT 16000
+2017-04-07 17:22:19 - SIGINT to 16000 failed - Killing as fallback
+2017-04-07 17:22:19 - Finished superheroserver.exe
+2017-04-07 18:21:28 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-07 18:21:30 - Started 4644
+2017-04-07 18:46:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-07 18:46:40 - Started 4476
+2017-04-07 18:48:14 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-07 18:48:14 - Started 6220
+2017-04-07 19:01:34 - Stopping superheroserver.exe
+2017-04-07 19:01:34 - ProcessKill 6220
+2017-04-07 19:01:34 - Found child process: 6240 Name: conhost.exe
+2017-04-07 19:01:34 - Found child process: 3648 Name: node.exe
+2017-04-07 19:01:34 - Stopping process 6240
+2017-04-07 19:01:34 - Send SIGINT 6240
+2017-04-07 19:01:34 - SIGINT to 6240 failed - Killing as fallback
+2017-04-07 19:01:34 - Stopping process 3648
+2017-04-07 19:01:34 - Send SIGINT 3648
+2017-04-07 19:01:34 - SIGINT to 3648 failed - Killing as fallback
+2017-04-07 19:01:34 - Stopping process 6220
+2017-04-07 19:01:34 - Send SIGINT 6220
+2017-04-07 19:01:34 - SIGINT to 6220 failed - Killing as fallback
+2017-04-07 19:01:34 - Finished superheroserver.exe
+2017-04-10 10:24:38 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-10 10:24:38 - Started 472
+2017-04-10 11:33:15 - Stopping superheroserver.exe
+2017-04-10 11:33:15 - ProcessKill 472
+2017-04-10 11:33:16 - Found child process: 5068 Name: conhost.exe
+2017-04-10 11:33:16 - Found child process: 3296 Name: node.exe
+2017-04-10 11:33:16 - Stopping process 5068
+2017-04-10 11:33:16 - Send SIGINT 5068
+2017-04-10 11:33:16 - SIGINT to 5068 failed - Killing as fallback
+2017-04-10 11:33:16 - Stopping process 3296
+2017-04-10 11:33:16 - Send SIGINT 3296
+2017-04-10 11:33:16 - SIGINT to 3296 failed - Killing as fallback
+2017-04-10 11:33:16 - Stopping process 472
+2017-04-10 11:33:16 - Send SIGINT 472
+2017-04-10 11:33:16 - SIGINT to 472 failed - Killing as fallback
+2017-04-10 11:33:16 - Finished superheroserver.exe
+2017-04-10 12:43:24 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-10 12:43:24 - Started 9848
+2017-04-10 16:31:05 - Stopping superheroserver.exe
+2017-04-10 16:31:05 - ProcessKill 9848
+2017-04-10 16:31:06 - Found child process: 4944 Name: conhost.exe
+2017-04-10 16:31:06 - Found child process: 1580 Name: node.exe
+2017-04-10 16:31:06 - Stopping process 4944
+2017-04-10 16:31:06 - Send SIGINT 4944
+2017-04-10 16:31:06 - SIGINT to 4944 failed - Killing as fallback
+2017-04-10 16:31:06 - Stopping process 1580
+2017-04-10 16:31:06 - Send SIGINT 1580
+2017-04-10 16:31:06 - SIGINT to 1580 failed - Killing as fallback
+2017-04-10 16:31:06 - Stopping process 9848
+2017-04-10 16:31:06 - Send SIGINT 9848
+2017-04-10 16:31:06 - SIGINT to 9848 failed - Killing as fallback
+2017-04-10 16:31:06 - Finished superheroserver.exe
+2017-04-12 10:12:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-12 10:12:29 - Started 4112
+2017-04-13 17:32:22 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\chethan.mr\Documents\Visual Studio 2015\Projects\SuperHero\SuperHero\app.js" --log "super-hero-server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-04-13 17:32:22 - Started 6716

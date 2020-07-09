@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Home</title>
+	</head>
+	<body ng-app="fileUpload">
+		<h1>Angular Node File Upload</h1>
+        <form  ng-controller="MyCtrl as up" name="up.upload_form">
+                Single Image with validations
+            <input 
+                type="file" 
+                ngf-select 
+                ng-model="up.file" 
+                name="file" 
+                ngf-pattern="'image/*'"
+                accept="image/*" 
+                ngf-max-size="20MB" 
+                />
+            Image thumbnail: <img style="width:100px;" ng-show="!!up.file" ngf-thumbnail="up.file || '/thumb.jpg'"/>
+            <i ng-show="up.upload_form.file.$error.required">*required</i><br>
+            <i ng-show="up.upload_form.file.$error.maxSize">File too large 
+            {{up.file.size / 1000000|number:1}}MB: max 20M</i>
+           <!--  Multiple files
+            <div class="button" ngf-select ng-model="up.files" ngf-multiple="true">Select</div>
+            Drop files: <div ngf-drop ng-model="up.files" class="drop-box">Drop</div> -->
+            <button type="submit" ng-click="up.submit()">submit</button>
+            <p>{{up.progress}}</p>
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.0.4/ng-file-upload-shim.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.0.4/ng-file-upload.js"></script>
+        <script >
+            angular.module('fileUpload', ['ngFileUpload'])
+.controller('MyCtrl', ['Upload', '$window', function (Upload, $window) {
+    var vm = this;
+    vm.submit = function () { //function to call on form submit
+        if (vm.upload_form.file.$valid && vm.file) { //check if from is valid
+            console.log(vm.file);
+            vm.upload(vm.file); //call upload function
+        }
+    }
+
+    vm.upload = function (file) {
+        Upload.upload({
+            url: 'http://localhost:3050/', //webAPI exposed to upload the file
+            data: { file: file } //pass file as data, should be user ng-model
+        }).then(function (resp) { //upload function returns a promise
+            if (resp.data.error_code === 0) { //validate success
+                $window.alert('Success ' + resp.config.data.file.name + 'uploaded. Response: ');
+            } else {
+                $window.alert('an error occured');
+            }
+        }, function (resp) { //catch error
+            console.log('Error status: ' + resp.status);
+            $window.alert('Error status: ' + resp.status);
+        }, function (evt) {
+            console.log(evt);
+            var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+            console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+            vm.progress = 'progress: ' + progressPercentage + '% '; // capture upload progress
+        });
+    };
+}]);</script>
+        
+	</body>
+	
+</html>
