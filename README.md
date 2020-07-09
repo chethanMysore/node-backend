@@ -24,7 +24,7 @@ npm install
 ```
 Build and run the service
 ```cmd
-npm start
+node app
 ```
 The application will be running at http://localhost:3050. <br/>
 Port number can be set using app.use("port") in the app.js.
