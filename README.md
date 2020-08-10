@@ -1,5 +1,5 @@
 # Resource Manager Service
-This is a REST service for Resource Manager application at the Illinois Tech University. The APIs are written in **node js** and **EXPRESS** framework. The service consists of 5 different endpoints: <br/>
+This is a REST service for **[Resource Manager application](https://github.com/chethanMysore/react-front-end)**. The APIs are written in **node js** and **EXPRESS** framework. The service consists of 5 different endpoints: <br/>
  - getAll - Returns all items
  - getItem - Returns matching item by itemId
  - postItem - Creates new item
