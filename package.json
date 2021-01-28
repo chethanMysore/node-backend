@@ -10,7 +10,7 @@
     "async": "^2.3.0",
     "cors": "^2.8.3",
     "documentdb": "^1.11.0",
-    "express": "3.4.4",
+    "express": "3.11.0",
     "jade": "*",
     "mongoose": "^4.9.3",
     "multer": "^1.3.0",
