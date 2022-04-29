@@ -7,7 +7,7 @@
     "name": "Adarsh"
   },
   "dependencies": {
-    "async": "^2.3.0",
+    "async": "^2.6.4",
     "cors": "^2.8.3",
     "documentdb": "^1.11.0",
     "express": "3.4.4",
